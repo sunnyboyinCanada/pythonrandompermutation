@@ -4,15 +4,31 @@
 }
 
 .history_wrap {
+    position: relative;
     width: 100%;
     max-width: 1000px;
     margin: 50px auto;
     overflow-y: auto;
 }
 
+.history_wrap::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: block;
+    width: 1px;
+    height: 100%;
+    background: #999;
+}
+
 .history_wrap .item {
     clear: both;
     padding-top: 40px;
+}
+
+.history_wrap .item:first-child {
+    padding-top: 0;
 }
 
 .history_wrap .item .cont,
@@ -23,6 +39,7 @@
 
 .history_wrap .item .cont {
     float: right;
+    position: relative;
     padding-left: 5%;
 }
 
@@ -38,6 +55,22 @@
     margin-bottom: 20px;
     font-size: 40px;
     color: #1b5db0;
+}
+
+.history_wrap .item .cont strong::before {
+    content: "";
+    position: absolute;
+    top: 28px;
+    left: 0;
+    display: block;
+    width: 25px;
+    height: 1px;
+    background: #999;
+}
+
+.history_wrap .item:nth-child(even) .cont strong::before {
+    left: auto;
+    right: 0;
 }
 
 .history_wrap .item .cont dl {
