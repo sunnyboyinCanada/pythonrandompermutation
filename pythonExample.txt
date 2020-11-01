@@ -1,0 +1,74 @@
+print ("오늘은", "일요일")
+
+print ("안녕하세요. \n만나서\t\t반갑습니다.")
+
+print ("naver", "kakao", "samsung", sep = ";")
+
+print(5/3) => 숫자 값을 체출함
+
+삼성전자 = 50000
+총평가금액 = 삼성전자 * 10
+print(총평가금액)
+
+시가총액 = 100000000000000000000000
+현재가 = 3000
+PER = 15.79
+print(시가총액,type(시가총액))
+print(현재가,type(현재가))
+print(PER,type(PER))
+
+s="Hello"
+t="python"
+print(s+"!", t)
+
+a =128
+print(type(a))
+
+a="132"
+print(type(a))
+
+num_str = "720"
+num_int = int(num_str)
+print(num_int+1, type(num_int))
+
+num = 100
+result = str(num)
+print(result, type(result))
+
+data = "15.79"
+data = float(data)
+print(data,type(data))
+
+year = "2020"
+print(int(year)-3)
+print(int(year)-2)
+print(int(year)-1)
+
+월 = 48584
+총금액 = 월 * 36
+print(총금액)
+
+lang = 'python'
+print(lang[0], lang[2])
+
+license_plate = "24가 2210"
+print(license_plate[-4:])
+
+string = "홀짝홀짝홀짝"
+print(string[::2])
+
+string = "PYTHON"
+print(string[::-1])
+
+phone_number = "010-1111-2222"
+phone_number1 = phone_number.replace("-"," ")
+print(phone_number1)
+
+url = "http://sharebook.kr"
+url_split = url.split(".")
+print(url_split[-1])
+
+string = 'asdfghjkl'
+string = string.replace('a', 'A')
+print(string)
+
