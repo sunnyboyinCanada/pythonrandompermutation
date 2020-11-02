@@ -72,3 +72,42 @@ string = 'asdfghjkl'
 string = string.replace('a', 'A')
 print(string)
 
+print("Hi" * 3)
+
+print("-" * 80)
+
+t1 = 'python'
+t2 = 'java'
+
+name1 = "sunny"
+age1 = 10
+name2 = "kim"
+age2 = 13
+print("name : %s age : %d" % (name1, age1))
+print("name : %s age : %d" % (name2, age2))
+
+name1 = "sunny"
+age1 = 10
+name2 = "kim"
+age2 = 15
+print("name: {} age: {}".format(name1, age1))
+print("name: {} age: {}".format(name2, age2))
+
+name1 = "김민수" 
+age1 = 10
+name2 = "이철희"
+age2 = 13
+print(f"이름: {name1} 나이: {age1}")
+print(f"이름: {name2} 나이: {age2}")
+
+상장주식수  = "5,969,782,,550"
+컴마제거 = 상장주식수.replace(",","")
+타입변환 = int(컴마제거)
+print(타입변환, type(타입변환))
+
+분기 = "2020/03(E) (IFRS연결)"
+print(분기[:7])
+
+data = "	삼성전자	"
+data1 = data.strip()
+print(data1)
