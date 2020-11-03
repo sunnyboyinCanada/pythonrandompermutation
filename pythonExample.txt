@@ -111,3 +111,73 @@ print(분기[:7])
 data = "	삼성전자	"
 data1 = data.strip()
 print(data1)
+
+ticker = "btc_krw"
+ticker1 = ticker.upper()
+print(ticker1)
+
+ticker = "BTC_KRW"
+ticker = ticker.lower()
+print(ticker)
+
+a = "hello"
+a = a.capitalize()
+
+file_name = "보고서.xlsx"
+file_name.endswith("xlsx")
+
+file_name = "보고서.xlsx"
+file_name.endswith(("xlsx","xls"))
+
+file_name = "2020_보고서.xlsx"
+file_name.startswith("2020")
+
+a= "hello world"
+a.split()
+
+ticker = "btc_krw"
+ticker.split("_")
+
+date = "2020-05-01"
+date.split("-")
+
+data = "039490	"
+data = data.rstrip()
+
+movie_rank = ["닥터 스트레인지", "스플릿", "럭키"]
+
+movie_rank = ["닥터 스트레인지", "스플릿", "럭키"]
+movie_rank.append("배트맨")
+print(movie_rank)
+
+movie_rank = ["닥터 스트레인지", "스플릿", "럭키"]
+movie_rank.insert(1,"슈퍼맨")
+print(movie_rank)
+
+movie_rank = ['닥터 스트레인지', '슈퍼맨', '스플릿', '럭키', '배트맨']
+del movie_rank[3]
+print(movie_rank)
+
+movie_rank = ['닥터 스트레인지', '슈퍼맨', '스플릿', '배트맨']
+del movie_rank[2]
+del movie_rank[2]
+print(movie_rank)
+
+lang1 = ["C", "C++", "JAVA"]
+lang2 = ["Python", "Go", "C#"]
+langs = lang1 + lang2
+print(langs)
+
+nums = [1,2,3,4,5,6,7]
+print("max: ", max(nums))
+print("min: ", min(nums))
+
+nums = [1,2,3,4,5]
+print(sum(nums))
+
+cook = ["피자", "김밥", "만두", "양념치킨", "족발", "피자", "김치만두", "쫄면", "쏘세지", "라면", "팥빙수", "김치전"]
+print(len(cook))
+
+nums = [1,2,3,4,5]
+average = sum(nums) / len(nums)
+print(average)
