@@ -1,0 +1,45 @@
+for line in data :
+	for column in line:
+		print(column * 1.00014)
+
+for line in data :
+	for column in line:
+		print(column * 1.00014)	
+	print("----")
+
+result = []
+for line in data:
+	for column in line:
+		result.append(column * 1.00014)
+print(result)
+
+result = []
+for line in data:
+	sub = []
+	for column in line:
+		sub.append(column * 1.00014)
+	result.append(sub)
+print(result)
+
+for row in ohlc[1:]:
+	print(row[3])
+
+for row in ohlc[1:]:
+	if (row[3] > 150)
+		print(row[3])
+
+for row in ohlc[1:]:
+	if(row[3] > row[0])
+	print(row[3])
+
+volatility = []
+for row in ohlc[1:]:
+	volatility.append(row[1]-row[2])
+
+for row in ohlc[1:]:
+	if row[3] > row[0]:
+		print(row[1]-row[2])
+
+profit = 0
+for row in ohlc[1:]:
+	profit += (row[3] - row[0])
