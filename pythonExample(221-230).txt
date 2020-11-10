@@ -1,0 +1,40 @@
+def print_reverse(string):
+	print(string[::-1])
+
+def print_score(score_list) :
+	print(sum(score_list)/len(score_list))
+
+def print_even (my_list) :
+	for v in my_list :
+		if v % 2 == 0 :
+			print(v)
+
+def print_keys(dic):
+	for keys in dic.keys():
+		print(keys)
+
+def print_value_by_key (my_dict, key) :
+	print(my_dict[key])
+
+def print_5xn(line):
+    chunk_num = int(len(line) / 5)
+    for x in range(chunk_num + 1) :
+        print(line[x * 5: x * 5 + 5])
+
+def print_mxn(line, num):
+	chunk_num = int(len(line) / num)
+	for x in range(chunk_num + 1) :
+		print(line[x * num: x * num + num])
+
+def calc_monthly_salary(annual_pay) :
+	monthly_pay = int(annual_pay / 12)
+	return monthly_pay
+
+def my_print(a,b) :
+	print("왼쪽: ", a)
+	print("오른쪽: ", b)
+
+my_print(a=100, b=200)
+
+
+
