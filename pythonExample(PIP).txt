@@ -1,0 +1,20 @@
+import re
+txt = "The rain in Spain"
+x = re.search("^The.*Spain$", txt)
+
+if x:
+	print("Yes! We have a match!")
+else:
+	print("No Match")
+
+import camelcase
+
+c = camelcase.CamelCase()
+txt = "hello world"
+print(c.hump(txt))
+
+uninstall camelcase  	*uninstall the package named "camelcase"
+
+pip list		*showing the list
+
+
